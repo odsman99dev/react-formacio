@@ -1,0 +1,12 @@
+@use "../../../styles/utils";
+@use "../../../styles/varibles";
+
+.main-header {
+  @include utils.box(20px, 10px);
+  @include utils.flexRow(space-between, center);
+
+  background-color: rgb(99, 184, 218);
+  min-height: 2rem;
+  font-family: varibles.$font-family-heading;
+  grid-area: header;
+}

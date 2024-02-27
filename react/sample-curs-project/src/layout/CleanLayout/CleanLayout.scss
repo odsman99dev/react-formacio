@@ -1,0 +1,15 @@
+
+.centered-block {
+  display: flex;
+  justify-content: center;
+
+align-items: center;
+min-height: 100vh;
+
+&__content {
+  border: 1px solid black;
+  padding: 20px;
+  width: 20em;
+}
+
+}

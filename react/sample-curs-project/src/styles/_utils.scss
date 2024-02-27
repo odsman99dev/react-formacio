@@ -1,0 +1,19 @@
+@use "./varibles";
+
+@mixin box($padding-vertical: varibles.$padding-vertical, $padding-horitzontal: varibles.$padding-horitzontal) {
+  padding: $padding-vertical $padding-horitzontal;
+}
+
+@mixin flex($direction: row, $justify: flex-start, $align: flex-start) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+@mixin flexRow($justify, $align) {
+  @include flex(row, $justify, $align);
+}
+@mixin flexColumn($justify, $align) {
+  @include flex(column, $justify, $align);
+}

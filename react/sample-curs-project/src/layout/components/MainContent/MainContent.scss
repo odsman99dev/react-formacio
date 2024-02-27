@@ -1,0 +1,6 @@
+@use "../../../styles/utils";
+
+.main-content {
+  grid-area: maincontent;
+  @include utils.box(20px, 20px);
+}

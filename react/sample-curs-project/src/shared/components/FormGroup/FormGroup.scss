@@ -1,0 +1,18 @@
+@use '../../../styles/utils';
+
+.form {
+  &__group {
+
+    display: flex;
+    gap: 1em;
+
+    &--inline {
+      @include utils.flexRow(space-between, center);
+      gap: .5em;
+    }
+    &--vertical {
+      @include utils.flexColumn(start, flex-start);
+      gap: .5em;
+    }
+  }
+}
