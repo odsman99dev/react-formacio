@@ -1,0 +1,18 @@
+
+
+.shops-data {
+  width: 100%;
+}
+
+table {
+  border-spacing: 0px;
+}
+th {
+  padding: .2em;
+  gap: 0em;
+  border: 1px solid silver;
+}
+ td {
+  border: 1px solid silver;
+  text-align: center;
+}

@@ -33,7 +33,7 @@ const Layout = (): React.ReactElement => {
 				<Heading level={1}>Sample Project</Heading>
 			</Header>
 			<Sidebar>
-				<Navbar links={navbarLinks} />
+				<Navbar linkss={navbarLinks} />
 			</Sidebar>
 			<MainContent>
 				<Outlet />

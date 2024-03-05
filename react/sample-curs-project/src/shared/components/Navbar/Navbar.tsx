@@ -13,9 +13,11 @@ const Navbar = ({ linkss }: NavbarProps): React.ReactElement => {
 		<>
 			<nav className="navbar">
 				<ul>
-					{linkss.map((link) => {
-						<li>{link.label}</li>;
-					})}
+					{linkss.map((link) => (
+						<Link to={link.path}>
+							<li>{link.label}</li>
+						</Link>
+					))}
 				</ul>
 			</nav>
 		</>
